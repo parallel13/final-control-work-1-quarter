@@ -34,7 +34,7 @@ void PrintArray(string[] array)
         for (int i = 0; i < array.Length; i++)
     {
         if (i < array.Length - 1) System.Console.Write($"{array[i]}, "); 
-        else System.Console.Write($"{array[i]}");    
+        
     }
     System.Console.WriteLine("]");
 }
@@ -46,7 +46,7 @@ void PrintArrayNew(string[] array)
         for (int i = 0; i < array.Length; i++)
     { 
         if (array[i].Length <= 3) System.Console.Write($"{array[i]}, "); 
-        else if (array[i].Length <= 3) System.Console.Write($"{array[i]}");    
+           
     }
     System.Console.WriteLine("]");
 }
